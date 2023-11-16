@@ -1,0 +1,57 @@
+.about{
+    margin-bottom:90%;
+    }
+img 
+{
+    margin-left: 0%;
+    width: 75%;
+    margin: 0px auto; 
+    aspect-ratio: 16 / 5;
+    object-fit: fill;
+    border-radius: 2%;
+}
+img:hover 
+{
+    object-fit: cover;
+    transition: 1s all ease-in-out !important;
+    opacity: 0.7 !important;
+}
+body
+{
+    margin:0;
+    padding:0;
+    background-color: rgb(118, 205, 92) ;
+    font-style: normal;
+    font-size: larger;
+}
+.image-caption
+ {
+    position:absolute;
+    bottom: 95%;
+    transform: translateY(-50%);
+    left: 0%;
+    right: 20%;
+    border: 0px #3a3333 solid;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px auto;
+    color: white;
+}
+a:link, a:visited 
+{
+  background-color: lightslategray;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover, a:active
+ {
+  background-color:indigo;
+}
+input
+{
+    background-color: rgb(218, 250, 215);
+    position: relative; 
+}
